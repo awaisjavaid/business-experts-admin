@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use App\Models\ContactUs;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Mail;
 
 class ContactUsController extends Controller
 {
