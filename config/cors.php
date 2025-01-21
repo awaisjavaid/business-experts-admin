@@ -26,7 +26,8 @@ return [
         'http://localhost:5173',
         'http://127.0.0.1:8000',
         'https://businessexperts.ae',
-        'https://admin.businessexperts.ae'
+        'https://admin.businessexperts.ae',
+        'https://biz.sfxdubai.com'
     ],
 
     'allowed_origins_patterns' => [],
