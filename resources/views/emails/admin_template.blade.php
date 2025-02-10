@@ -93,7 +93,7 @@
 <div class="container">
     <div class="inner_container">
         <header>
-            <img src="{{ asset('images/logo.svg') }}" alt="Business Experts, Dubai, UAE" width="250px"/>
+            <img src="{{ asset('images/logo.png') }}" alt="Business Experts, Dubai, UAE" width="250px"/>
             <h1>Enquiry Submission</h1>
         </header>
         <hr>

@@ -20,7 +20,7 @@
                                 <tr>
                                     <td style="padding-top: 60px; padding-bottom: 20px;" align="center" valign="middle" class="emailLogo">
                                         <a href="https://businessexperts.ae" style="text-decoration:none" target="_blank">
-                                            <img alt="" border="0" src="{{ asset('images/logo.svg') }}" style="width:100%;max-width:250px;height:auto;display:block" width="250">
+                                            <img alt="" border="0" src="{{ asset('images/logo.png') }}" style="width:100%;max-width:250px;height:auto;display:block" width="250">
                                         </a>
                                     </td>
                                 </tr>
@@ -90,7 +90,7 @@
                                             <img alt="Business Experts, Dubai - TikTok" border="0" src="{{ asset('images/icons/tiktok.png') }}" style="height:auto;width:100%;max-width:40px;margin-left:2px;margin-right:2px" width="40">
                                         </a>
                                         <a href="https://www.linkedin.com/company/businessexperts.ae/" style="display: inline-block;" target="_blank" class="linkdin">
-                                            <img alt="Business Experts, Dubai - LinkedIn" border="0" src="{{ asset('images/icons/linkedin.webp') }}" style="height:auto;width:100%;max-width:40px;margin-left:2px;margin-right:2px" width="40">
+                                            <img alt="Business Experts, Dubai - LinkedIn" border="0" src="{{ asset('images/icons/linkedin.png') }}" style="height:auto;width:100%;max-width:40px;margin-left:2px;margin-right:2px" width="40">
                                         </a>
                                         <a href="https://x.com/experts_ae" style="display: inline-block;" target="_blank" class="twitter">
                                             <img alt="Business Experts, Dubai - X" border="0" src="{{ asset('images/icons/twitter-x.png') }}" style="height:auto;width:100%;max-width:40px;margin-left:2px;margin-right:2px" width="40">
