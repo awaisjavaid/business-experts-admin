@@ -1,0 +1,13 @@
+.brand-link .brand-image {
+    box-shadow: none !important;
+    filter: brightness(0) invert(1);
+}
+
+.btn-primary {
+    border-color: #DF0A0A !important;
+    background-color: #DF0A0A !important;
+}
+
+.card-primary.card-outline {
+    border-top: 3px solid #DF0A0A !important;
+}

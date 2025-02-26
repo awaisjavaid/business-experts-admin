@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -18,5 +19,10 @@ use Illuminate\Support\Facades\Route;
 //});
 
 Route::get('/', function () {
-    return redirect('https://businessexperts.ae');
+    return redirect('/login');
 });
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('client-queries', [App\Http\Controllers\Admin\ClientQueriesController::class, 'client_queries'])->name('client-queries');
