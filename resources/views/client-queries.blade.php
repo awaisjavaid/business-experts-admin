@@ -45,9 +45,9 @@
                                 <tbody>
 
                                 @if(count($client_queries) > 0)
-                                    @foreach($client_queries as $queries)
+                                    @foreach($client_queries as $index => $queries)
                                         <tr class="align-middle">
-                                            <td>1.</td>
+                                            <td>{{ $index + 1 }}</td>
                                             <td>{{ $queries->name }}</td>
                                             <td>{{ $queries->email }}</td>
                                             <td>{{ $queries->phone }}</td>
