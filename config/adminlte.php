@@ -114,7 +114,7 @@ return [
         'mode' => 'fullscreen',
         'img' => [
             'path' => 'vendor/adminlte/dist/img/BusinessExpertsLogo.png',
-            'alt' => 'AdminLTE Preloader Image',
+            'alt' => 'Business Experts',
             'effect' => 'animation__shake',
             'width' => 60,
             'height' => 60,

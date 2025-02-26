@@ -18,11 +18,15 @@ use Illuminate\Support\Facades\Route;
 //    return view('welcome');
 //});
 
-Route::get('/', function () {
+Auth::routes();
+
+Route::get('register', function () {
     return redirect('/login');
 });
 
-Auth::routes();
+Route::get('/', function () {
+    return redirect('/login');
+});
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('client-queries', [App\Http\Controllers\Admin\ClientQueriesController::class, 'client_queries'])->name('client-queries');
