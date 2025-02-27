@@ -11,3 +11,8 @@
 .card-primary.card-outline {
     border-top: 3px solid #DF0A0A !important;
 }
+
+.sidebar-dark-primary .nav-sidebar>.nav-item>.nav-link.active,
+.sidebar-light-primary .nav-sidebar>.nav-item>.nav-link.active {
+    background-color: #DF0A0A !important;
+}
