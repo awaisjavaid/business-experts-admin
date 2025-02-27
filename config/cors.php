@@ -27,7 +27,8 @@ return [
         'http://127.0.0.1:8000',
         'https://businessexperts.ae',
         'https://admin.businessexperts.ae',
-        'https://biz.sfxdubai.com'
+        'https://biz.sfxdubai.com',
+        'https://www.businessexperts.ae'
     ],
 
     'allowed_origins_patterns' => [],
