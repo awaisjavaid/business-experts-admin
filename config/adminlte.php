@@ -341,7 +341,7 @@ return [
         [
             'text' => 'Visitor Tracker',
             'url' => 'visitors',
-            'icon' => 'fas fa-fw fa-user',
+            'icon' => 'fas fa-tachometer-alt',
         ],
         /*[
             'text' => 'multilevel',
