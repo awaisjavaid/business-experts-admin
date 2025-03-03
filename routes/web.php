@@ -20,9 +20,9 @@ use Illuminate\Support\Facades\Route;
 
 Auth::routes();
 
-Route::get('register', function () {
-    return redirect('/login');
-});
+//Route::get('register', function () {
+//    return redirect('/login');
+//});
 
 Route::get('/', function () {
     return redirect('/login');
@@ -30,3 +30,4 @@ Route::get('/', function () {
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('client-queries', [App\Http\Controllers\Admin\ClientQueriesController::class, 'client_queries'])->name('client-queries');
+Route::get('visitors', [App\Http\Controllers\Admin\VisitorsController::class, 'visitors'])->name('visitors');

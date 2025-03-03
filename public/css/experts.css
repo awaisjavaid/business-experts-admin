@@ -16,3 +16,13 @@
 .sidebar-light-primary .nav-sidebar>.nav-item>.nav-link.active {
     background-color: #DF0A0A !important;
 }
+
+.page-link {
+    color: #DF0A0A !important;
+}
+
+.page-item.active .page-link {
+    color: #ffffff !important;
+    background-color: #DF0A0A !important;
+    border-color: #DF0A0A !important;
+}

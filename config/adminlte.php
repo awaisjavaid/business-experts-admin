@@ -338,6 +338,11 @@ return [
             'url' => 'client-queries',
             'icon' => 'fas fa-fw fa-user',
         ],
+        [
+            'text' => 'Visitor Tracker',
+            'url' => 'visitors',
+            'icon' => 'fas fa-fw fa-user',
+        ],
         /*[
             'text' => 'multilevel',
             'icon' => 'fas fa-fw fa-share',
