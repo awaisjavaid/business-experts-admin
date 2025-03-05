@@ -20,7 +20,7 @@ class ClientQueriesController extends Controller
 
     public function client_queries()
     {
-        $client_queries = ContactUs::all();
+        $client_queries = ContactUs::orderBy('created_at', 'desc')->paginate(10);
         return view('client-queries')->with('client_queries', $client_queries);
     }
 
