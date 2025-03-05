@@ -26,7 +26,7 @@
                 <div class="col-md-12">
                     <div class="card mb-4">
                         <div class="card-body">
-                            <table class="table table-bordered">
+                            <table class="table table-bordered table-striped">
                                 <thead>
                                 <tr>
                                     <th style="width: 10px">#</th>
