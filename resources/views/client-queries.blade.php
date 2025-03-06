@@ -52,7 +52,7 @@
                                             <td>{{ $queries->nationality }}</td>
                                             <td>{{ $queries->business_activity }}</td>
                                             <td>{{ $queries->plan_to_start }}</td>
-                                            <td>{{ date('Y-m-d', strtotime($queries->created_at)) }}</td>
+                                            <td>{{ date('d-m-Y', strtotime($queries->created_at)) }}</td>
                                             <td>
                                                 <button class="btn btn-primary btn-sm view-details"
                                                         data-id="{{ $queries->id }}"
@@ -62,7 +62,7 @@
                                                         data-nationality="{{ $queries->nationality }}"
                                                         data-business_activity="{{ $queries->business_activity }}"
                                                         data-plan_to_start="{{ $queries->plan_to_start }}"
-                                                        data-date="{{ date('Y-m-d', strtotime($queries->created_at)) }}"
+                                                        data-date="{{ date('d-m-Y', strtotime($queries->created_at)) }}"
                                                         data-message="{{ $queries->message }}"
                                                         data-toggle="modal"
                                                         data-target="#clientDetailModal">
